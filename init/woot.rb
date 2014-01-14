@@ -29,4 +29,5 @@ puts "  **                                                 **".light_white
 puts "  *****************************************************".light_white
 puts "  **      It puts the cheese...on the browser?       **".light_white
 puts "  *****************************************************".light_white 
-puts "                                                       ".light_white 
+puts "                                                       ".light_white
+puts "        Created By: Mark Hayden & Jeff Jorgensen       ".light_white 
