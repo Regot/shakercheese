@@ -1,6 +1,6 @@
 module Samples
 	def self.initialize
-		# do something on initialize
+		puts "im working, woot"
 	end
 
 	# do something method
