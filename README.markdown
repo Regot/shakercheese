@@ -26,7 +26,7 @@ familiar with Rails.
 ## Controller
 
 Sinatra conveniently combines the controller functionality in with the
-routing. This is all in the usual `hansel.rb` file.
+routing. This is all in the usual `cheesey.rb` file.
 
 ## Views
 

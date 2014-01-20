@@ -1,1 +1,12 @@
-url: http://dev.hansel.io:4567/
+:url: 0.0.0.0:4567
+:cheesey_mailer:
+  :send: false
+  :template_directory: public/email
+  :render_direcotry: tmp/email
+  :enable_starttls_auto: true
+  :address: smtp.gmail.com
+  :port: 587
+  :domain: markhayden.me
+  :user_name: hi@markhayden.me
+  :password: jack1204
+  :authentication: plain

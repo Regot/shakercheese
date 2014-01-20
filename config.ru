@@ -2,6 +2,6 @@ require 'rubygems'
 require 'bundler'
 
 Bundler.require
-require './hansel'
+require './cheesey'
 
 run Sinatra::Application

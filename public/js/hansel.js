@@ -1,4 +1,4 @@
-define('hansel', 
+define('shakercheese', 
 	
 	['ko', 'net'],
 	
@@ -11,7 +11,7 @@ define('hansel',
 			  	alert(req.response);
 			  },
 			  error: function(req) {
-			    console.log('error bitches');
+			    console.log('error sadness');
 			  }
 			});
 		}

@@ -16,7 +16,7 @@ class String
 end
 
 # INITIALIZE AUTO LOADERS
-autoload_targets = ['lib', 'controllers', 'models', 'helpers', 'init']
+autoload_targets = ['lib', 'controllers/interface', 'controllers/lib', 'models', 'helpers', 'init']
 
 autoload_targets.each do |folder|
   files = Dir.entries(File.join(SINATRA_ROOT, folder)).reject! {|file| file.start_with?('.') }
@@ -26,6 +26,6 @@ autoload_targets.each do |folder|
 end
 
 # CONFIGURE LOGGER
-LOG = Logger.new('log/hansel.log')
+LOG = Logger.new('log/cheesey.log')
 LOG.debug "Your server just got cheesed bro. [Server Booted]"
 	# LOG.error "This will not be ignored"

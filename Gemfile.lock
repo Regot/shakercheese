@@ -21,9 +21,15 @@ GEM
     builder (3.1.4)
     colorize (0.6.0)
     i18n (0.6.9)
-    minitest (4.7.5)
+    liquid (2.6.1)
+    mail (2.5.4)
+      mime-types (~> 1.16)
+      treetop (~> 1.4.8)
+    mime-types (1.25.1)
+    minitest (4.3.2)
     multi_json (1.8.2)
     pg (0.17.1)
+    polyglot (0.3.3)
     rack (1.5.2)
     rack-protection (1.5.1)
       rack
@@ -37,6 +43,9 @@ GEM
     thread_safe (0.1.3)
       atomic
     tilt (1.4.1)
+    treetop (1.4.15)
+      polyglot
+      polyglot (>= 0.3.1)
     tzinfo (0.3.38)
 
 PLATFORMS
@@ -45,6 +54,8 @@ PLATFORMS
 DEPENDENCIES
   activerecord
   colorize
+  liquid
+  mail
   pg
   sinatra
   sinatra-activerecord

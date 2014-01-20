@@ -1,1 +1,12 @@
-url: http://hansel.io
+:url: YOUR_URL_HERE
+:cheesey_mailer:
+  :send: true
+  :template_directory: public/email
+  :render_direcotry: tmp/email
+  :enable_starttls_auto: true
+  :address: smtp.gmail.com
+  :port: 587
+  :domain: YOUR_EMAIL_DOMAIN_HERE
+  :user_name: YOUR_EMAIL_USERNAME_HERE
+  :password: YOUR_EMAIL_PASSWORD_HERE
+  :authentication: plain

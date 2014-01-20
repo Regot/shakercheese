@@ -1,0 +1,5 @@
+Hi {{data.first_name}},
+
+You have successfully sent an email using CheeseyDeliver, hup!
+
+Thanks!

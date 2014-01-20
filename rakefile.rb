@@ -1,2 +1,2 @@
-require "./hansel"
+require "./cheesey"
 require "sinatra/activerecord/rake"

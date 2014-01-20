@@ -1,0 +1,17 @@
+#!/usr/bin/env ruby
+$0 = "cheesey_seed #{ARGV[0] || "Interface"}"
+
+require 'irb'
+require './cheesey'
+
+# start your seed commands here
+Sample.create(:name=>"Parmesan")
+Sample.create(:name=>"Ricotta")
+Sample.create(:name=>"Bleu")
+Sample.create(:name=>"Cheddar")
+Sample.create(:name=>"Swiss")
+Sample.create(:name=>"Muenster")
+Sample.create(:name=>"Gruyere")
+Sample.create(:name=>"Brie")
+Sample.create(:name=>"Cojita")
+Sample.create(:name=>"Mozzarella")

@@ -25,4 +25,5 @@
 	</head>
 	<body>
 		<header>
+			<% if is_user? %><a href="<%= CheeseyConfig[:url] %>/logout">Logout</a><% end %>
 		</header>

@@ -1,11 +1,11 @@
 #!/usr/bin/env ruby
 
-$0 = "cozy_console #{ARGV[0] || "Interface"}"
+$0 = "cheesey_console #{ARGV[0] || "Interface"}"
 DASH_ARGS = ARGV.select {|a| /^--/.match(a) }
 ARGV.delete_if {|a| /^--/.match(a) }
 
 require 'irb'
-require './hansel'
+require './cheesey'
 
 ARGV.clear
 IRB.start
