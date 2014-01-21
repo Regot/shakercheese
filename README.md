@@ -9,4 +9,20 @@ Clone repo
 add log directory to ignore file
 bundle install
 rake db:migrate
-bin/seed -- get cheesey
+go/seed -- get cheesey
+go/start
+
+
+console
+	go/console
+
+models
+	sample
+
+controllers
+	sample
+	mailer
+
+views
+
+
